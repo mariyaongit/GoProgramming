@@ -7,12 +7,12 @@ func TestCountVowels(t *testing.T) {
 		userstring    string
 		expected int
 	}{
-		{"vowelcount", 4},
-		{"aeiou", 5},
-		{"AEIOU", 5},
-		{"", 0},
-		{"#a@e$i", 3},
-		{"Hello, How are you", 7},
+		{"vowelcount", 4},         
+        {"aeiou", 5},              
+        {"AEIOU", 5},              
+        {"", 0},                   
+        {"#a@e$i", 3},             
+        {"Hello, How are you", 7},  
 	}
 
 	for _, tc := range testCases {
